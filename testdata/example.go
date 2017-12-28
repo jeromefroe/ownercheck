@@ -9,6 +9,6 @@ func main() {
 	var b []byte
 	foo(b)
 
-	// illegal
+	// this operation is illegal because main no longer owns b
 	foo(b)
 }
